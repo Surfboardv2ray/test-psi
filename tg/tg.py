@@ -6,6 +6,8 @@ import time
 import random
 import re
 import base64
+import argparse
+
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
@@ -42,22 +44,19 @@ inv_tg_name_json = json_load('tg/ch-inv.json')
 inv_tg_name_json[:] = [x for x in inv_tg_name_json if len(x) >= 5]
 inv_tg_name_json = list(set(inv_tg_name_json)-set(tg_name_json))
 
-thrd_pars = int(input('\nThreads for parsing: '))
-pars_dp = int(input('\nParsing depth (1dp = 20 last tg posts): '))
+thrd_pars = int(os.getenv('THRD_PARS', '128'))
+
+
+pars_dp = int(os.getenv('PARS_DP', '1'))
 
 print(f'\nTotal channel names in tg/ch.json         - {len(tg_name_json)}')
 print(f'Total channel names in tg/ch-inv.json - {len(inv_tg_name_json)}')
 
-while (use_inv_tc := input('\nTry looking for proxy configs from "tg/ch-inv.json" too? (Enter y/n): ').lower()) not in {"y", "n"}: pass
-print()
+
+use_inv_tc = os.getenv('USE_INV_TC', 'n')
+use_inv_tc = True if use_inv_tc.lower() == 'y' else False
 
 start_time = datetime.now()
-
-if use_inv_tc == 'y':
-    tg_name_json.extend(inv_tg_name_json)
-    inv_tg_name_json.clear()
-    tg_name_json = list(set(tg_name_json))
-    tg_name_json = sorted(tg_name_json)
 
 sem_pars = threading.Semaphore(thrd_pars)
 
@@ -301,5 +300,3 @@ with open("tg/config.txt", "w", encoding="utf-8") as file:
 
 print(f'\nTime spent - {str(datetime.now() - start_time).split(".")[0]}')
 #print(f'\nTime spent - {timedelta(seconds=int((datetime.now() - start_time).total_seconds()))}')
-
-input('\nPress Enter to finish ...')
