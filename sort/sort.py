@@ -5,7 +5,13 @@ import re
 import socket
 import os
 
+# Small in-memory cache to avoid repeated ip-api lookups for the same IP
+country_cache = {}
+
 def get_country_code(ip_address):
+    if ip_address in country_cache:
+        return country_cache[ip_address]
+
     try:
         # Try to resolve the hostname to an IP address
         ip_address = socket.gethostbyname(ip_address)
@@ -15,12 +21,19 @@ def get_country_code(ip_address):
     except UnicodeError:
         print(f"Hostname violates IDNA rules: {ip_address}")
         return None
-    try:
-        # Retrieve the base URL from the environment variable
-        base_url = "http://ip-api.com/line"
 
-        response = requests.get(f'{base_url}/{ip_address}')
-        return response.text
+    try:
+        # Retrieve only the country code from ip-api
+        base_url = "http://ip-api.com/line"
+        response = requests.get(f'{base_url}/{ip_address}?fields=countryCode', timeout=5)
+        country_code = response.text.strip()
+
+        # Basic safety check: country codes should be exactly 2 letters
+        if len(country_code) != 2:
+            return None
+
+        country_cache[ip_address] = country_code
+        return country_code
     except requests.exceptions.RequestException as e:
         print(f"Error sending request: {e}")
         return None
@@ -62,9 +75,11 @@ def process_vless_like(proxy):
         ip_address = proxy.split('@')[1].split(':')[0]
     except Exception:
         return None
+
     country_code = get_country_code(ip_address)
     if country_code is None:
         return None
+
     flag_emoji = country_code_to_emoji(country_code)
     proxy_counter += 1
     remarks = flag_emoji + country_code + '_' + str(proxy_counter) + '_' + '@Surfboardv2ray'
