@@ -1,8 +1,7 @@
-vless://09e485e1-241c-4d17-82b2-0dff1be3f61e@kvm.iranhosting.mom:55003?security=none&allowInsecure=0&encryption=none&type=ws&host=rubika.ir&path=/#🇮🇷IR_25_@Surfboardv2ray
-vless://116980b3-d4dc-49cc-acae-30c08766b060@85.133.197.114:2083?security=&encryption=none&headerType=none&type=tcp#🇮🇷IR_26_@Surfboardv2ray
-vless://16ed866f-a957-4451-a73e-bfddc8e8691b@45.90.74.157:443?type=tcp&encryption=none&security=reality&pbk=d4ET_Z-W44-9H29GfubVnUh2KBxXDATYN1j4XWPCqQI&fp=chrome&sni=www.aparat.com&sid=24e72f5f83&spx=/&flow=xtls-rprx-vision#🇮🇷IR_27_@Surfboardv2ray
-vless://38d22373-d45c-4a1b-8e97-0177e4ce4f07@snapp.ir:80?path=/&security=none&encryption=none&host=ar.liarashop.ir&type=ws#🇮🇷IR_29_@Surfboardv2ray
-vless://4d06cd69-75d6-4046-8b9a-79044f5dc6bc@net.khodmobile.com:8585?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_32_@Surfboardv2ray
-vless://6a5e52bd-c308-49e8-aab7-b1ce9b32e58b@94.182.103.8:8070?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#🇮🇷IR_36_@Surfboardv2ray
-vless://7936ed40-021b-419a-8804-287c5809504e@1.gsara.ir:80?path=/&security=none&encryption=none&host=t.setiia.ir&type=ws#🇮🇷IR_37_@Surfboardv2ray
-vless://a1d9eaf5-9e03-4c67-af0b-e238b865b373@185.143.234.122:80?security=none&type=ws&headerType=&path=/&host=amm4.avenflow.ir#🇮🇷IR_38_@Surfboardv2ray
+vless://09e485e1-241c-4d17-82b2-0dff1be3f61e@kvm.iranhosting.mom:55003?security=none&allowInsecure=0&encryption=none&type=ws&host=rubika.ir&path=/#🇮🇷IR_5_@Surfboardv2ray
+vless://4e0f7ef4-4ce6-4de6-bfb9-5b831436bedf@193.58.119.134:443?security=&encryption=none&host=google.com&headerType=http&type=tcp#🇮🇷IR_6_@Surfboardv2ray
+vless://a1d9eaf5-9e03-4c67-af0b-e238b865b373@185.143.234.122:80?security=none&type=ws&headerType=&path=/&host=amm4.avenflow.ir#🇮🇷IR_8_@Surfboardv2ray
+vless://a6eb1781-e671-4a63-ab3a-252079c69b8a@star.smile-loyal.fun:2083?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_9_@Surfboardv2ray
+vless://c060fdda-385d-aea1-3982-5a6c92876481@85.133.249.43:58387?security=none&encryption=none&host=arvancloud.ir&headerType=http&type=tcp#🇮🇷IR_10_@Surfboardv2ray
+vless://eef044ee-21f4-4a8a-80cb-0d2af3df34c3@dl.io-laptop.ir:8443?mode=auto&path=?ed=2048&security=tls&alpn=h2,http/1.1&encryption=none&host=dl.io-laptop.ir&fp=chrome&type=xhttp&sni=dl.io-laptop.ir#🇮🇷IR_11_@Surfboardv2ray
+vless://eef044ee-21f4-4a8a-80cb-0d2af3df34c3@dl.io-laptop.ir:8443?mode=auto&path=?ed=2048&security=tls&alpn=h2,http/1.1&encryption=none&host=dl.io-laptop.ir&fp=chrome&type=xhttp&sni=dl.io-laptop.ir#🇮🇷IR_12_@Surfboardv2ray
