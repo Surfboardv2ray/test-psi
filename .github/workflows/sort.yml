@@ -46,7 +46,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add output/converted.txt output/US.txt output/IR.txt
+        git add sort/sort.txt sort/US.txt sort/IR.txt
         timestamp=$(TZ='Asia/Tehran' date)
         git commit -m "✅Updated ${timestamp}" -a
         git push
