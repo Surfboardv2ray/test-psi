@@ -1,0 +1,54 @@
+name: Parse Channels, Split & Base64
+
+on:
+  push:
+    paths:
+      - 'tg/ch.json'
+      - '.github/workflows/main_switch.yml'
+
+  workflow_dispatch:
+  schedule:
+    - cron: "* */2 * * *"
+jobs:
+  run_python_and_push:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up Parser
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+
+    - name: Install Parser dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r tg/requirements.txt
+        
+
+    - name: Run Parser
+      env:
+          THRD_PARS: '128'
+          PARS_DP: '1'
+          USE_INV_TC: 'n'
+      run: |
+        python tg/tg.py
+          
+    - name: Local Authentication
+      run: |
+        git config --local user.name "GitHub Action"
+        git config --local user.email "action@github.com"
+
+    - name: Commit & push Parser
+      run: |
+        git add .
+        git commit -m "Update files"
+        git pull
+        git push
+
+          git add splitted/*
+          git commit --allow-empty -m "Update output files"
+          git push
