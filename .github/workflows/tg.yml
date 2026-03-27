@@ -24,7 +24,7 @@ jobs:
     - name: Replace Channels
       run: |
         cp tg/channels.json tg/ch.json
-        > configtg.txt
+        > tg/config.txt
 
     - name: Install Parser dependencies
       run: |
