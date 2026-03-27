@@ -2,7 +2,7 @@ name: Send to Bot
 
 on:
   workflow_run:
-    workflows: ["CR3 - Generate IP List"]  # Name of the primary workflow
+    workflows: ["CR2 - RangeMaker"]  # Name of the primary workflow
     types:
       - completed  # Trigger only when the primary workflow is completed
   workflow_dispatch:
