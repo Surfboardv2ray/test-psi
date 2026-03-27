@@ -1,10 +1,10 @@
-name: Parse Channels, Split & Base64
+name: Parse Channels
 
 on:
   push:
     paths:
       - 'tg/ch.json'
-      - '.github/workflows/main_switch.yml'
+      - '.github/workflows/tg.yml'
 
   workflow_dispatch:
   schedule:
@@ -48,7 +48,3 @@ jobs:
         git commit -m "Update files"
         git pull
         git push
-
-          git add splitted/*
-          git commit --allow-empty -m "Update output files"
-          git push
