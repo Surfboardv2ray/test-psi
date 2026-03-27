@@ -37,7 +37,7 @@ def process_vmess(proxy):
     base64_str = proxy.split('://')[1]
     missing_padding = len(base64_str) % 4
     if missing_padding:
-        base64_str += '='* (4 - missing_padding)
+        base64_str += '=' * (4 - missing_padding)
     try:
         decoded_str = base64.b64decode(base64_str).decode('utf-8')
         proxy_json = json.loads(decoded_str)
@@ -56,9 +56,12 @@ def process_vmess(proxy):
         print("Error processing vmess proxy: ", e)
         return None
 
-def process_vless(proxy):
+def process_vless_like(proxy):
     global proxy_counter
-    ip_address = proxy.split('@')[1].split(':')[0]
+    try:
+        ip_address = proxy.split('@')[1].split(':')[0]
+    except Exception:
+        return None
     country_code = get_country_code(ip_address)
     if country_code is None:
         return None
@@ -73,10 +76,13 @@ with open('tg/config.txt', 'r') as f, open('sort/sort.txt', 'w') as out_f:
     proxies = f.readlines()
     for proxy in proxies:
         proxy = proxy.strip()
+        processed_proxy = None
+
         if proxy.startswith('vmess://'):
             processed_proxy = process_vmess(proxy)
-        elif proxy.startswith('vless://'):
-            processed_proxy = process_vless(proxy)
+        elif proxy.startswith('vless://') or proxy.startswith('trojan://') or proxy.startswith('ss://'):
+            processed_proxy = process_vless_like(proxy)
+
         if processed_proxy is not None:
             out_f.write(processed_proxy + '\n')
 
