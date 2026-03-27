@@ -14,7 +14,12 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
+      
+    - name: Cleanup & Load IR Configs
+      run: |
+        > geo/config.txt
+        cp sort/IR.txt geo/config.txt
+        
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
