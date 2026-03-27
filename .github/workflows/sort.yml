@@ -1,10 +1,12 @@
-name: Fetch proxies, Run python sorter and Base64
-
+name: Sort
 on:
+  workflow_run:
+    workflows: ["TG"]  # Name of the primary workflow
+    types:
+      - completed  # Trigger only when the primary workflow is completed
   push:
     paths:
       - 'sort/sort.py'
-      - '.github/workflows/sort.yml'
 
   workflow_dispatch:
   schedule:
@@ -32,7 +34,7 @@ jobs:
         pip install requests
 
     - name: Run sorter script
-      run: python python/sorter.py
+      run: python sort/sort.py
       
     - name: Check for Output Changes
       id: changes
