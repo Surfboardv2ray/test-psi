@@ -49,6 +49,7 @@ jobs:
     - name: Commit & push Parser
       run: |
         git add .
-        git commit -m "Update files"
+        timestamp=$(TZ='Asia/Tehran' date)
+        git commit -m "✅List updated ${timestamp}"
         git pull
         git push
