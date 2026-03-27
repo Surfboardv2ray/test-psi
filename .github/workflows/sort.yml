@@ -9,8 +9,6 @@ on:
       - 'sort/sort.py'
 
   workflow_dispatch:
-  schedule:
-    - cron: "* */2 * * *"
 jobs:
   build:
 
