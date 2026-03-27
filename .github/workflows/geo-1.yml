@@ -43,7 +43,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add chainreaction/ex.txt
+        git add geo/ex.txt
         timestamp=$(TZ='Asia/Tehran' date)
         git commit -m "✅List updated ${timestamp}"
         git push
