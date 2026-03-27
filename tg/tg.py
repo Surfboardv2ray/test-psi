@@ -36,8 +36,8 @@ def substring_del(string_list):
             out.append(s)
     return out
 
-tg_name_json = json_load('ch.json')
-inv_tg_name_json = json_load('ch-inv.json')
+tg_name_json = json_load('./ch.json')
+inv_tg_name_json = json_load('./ch-inv.json')
 
 inv_tg_name_json[:] = [x for x in inv_tg_name_json if len(x) >= 5]
 inv_tg_name_json = list(set(inv_tg_name_json)-set(tg_name_json))
