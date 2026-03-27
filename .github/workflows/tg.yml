@@ -1,5 +1,4 @@
-name: Parse Channels
-
+name: TG
 on:
   push:
     paths:
