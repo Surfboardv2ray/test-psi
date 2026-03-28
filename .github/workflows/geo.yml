@@ -1,0 +1,64 @@
+name: Extract IPS and RangeMaker
+
+on:
+  workflow_run:
+    workflows: ["Sort"]
+    types:
+      - completed
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Cleanup & Load IR Configs
+        run: |
+          > geo/config.txt
+          cp sort/IR.txt geo/config.txt
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ipaddress requests
+
+      - name: Clear old IP list
+        run: |
+          > geo/iplist.txt
+
+      - name: Run IP Extractor
+        run: python geo/extract.py
+
+      - name: Run Range Maker
+        run: python geo/rangemaker.py
+
+      - name: Check for Changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add geo/ex.txt geo/exrange.txt
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅ List updated ${timestamp}"
+          git push
