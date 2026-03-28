@@ -1,6 +1,2 @@
-vless://cbf73250-e228-4fc8-95a1-3804176354be@FASTLY1.FASTSPEEDS.IR:443?mode=auto&path=dl?ed=2560&security=tls&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&insecure=0&host=Afraosi.global.ssl.fastly.net&type=xhttp&allowInsecure=0&sni=default.ssl.fastly.net#🇺🇸US_30_@Surfboardv2ray
-vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?mode=stream-one&path=/&security=none&encryption=none&type=xhttp#🇺🇸US_33_@Surfboardv2ray
-vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?mode=stream-one&path=/&security=none&encryption=none&type=xhttp#🇺🇸US_34_@Surfboardv2ray
-vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?type=xhttp&path=/&host=&mode=stream-one&security=none#🇺🇸US_35_@Surfboardv2ray
-vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?type=xhttp&path=/&host=&mode=stream-one&securiy=noe#🇺🇸US_36_@Surfboardv2ray
-vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?type=xhttp&path=/&host=&mode=stream-one&securiy=none#🇺🇸US_37_@Surfboardv2ray
+vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?mode=stream-one&path=/&security=none&encryption=none&type=xhttp#🇺🇸US_40_@Surfboardv2ray
+vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?mode=stream-one&path=/&security=none&encryption=none&type=xhttp#🇺🇸US_41_@Surfboardv2ray
