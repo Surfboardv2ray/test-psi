@@ -5,6 +5,7 @@ on:
     workflows: ["CR1 - Extract IPS"]  # Name of the primary workflow
     types:
       - completed  # Trigger only when the primary workflow is completed
+    branches: [main] 
   workflow_dispatch:
 
 jobs:
