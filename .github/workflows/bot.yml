@@ -5,6 +5,7 @@ on:
     workflows: ["CR2 - RangeMaker"]  # Name of the primary workflow
     types:
       - completed  # Trigger only when the primary workflow is completed
+    branches: [main] 
   workflow_dispatch:
 
 permissions:
