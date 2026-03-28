@@ -1,0 +1,1 @@
+vless://8d2aeab8-ce98-47a6-84ec-d5b45d060b66@8.39.125.114:443?allowInsecure=1&encryption=none&host=edt2.btxst.eu.cc&path=/tv/stars/settings&security=tls&sni=edt2.btxst.eu.cc&type=ws#🇺🇸US_29_@Surfboardv2ray
