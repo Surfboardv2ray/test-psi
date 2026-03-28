@@ -4,6 +4,7 @@ on:
     workflows: ["TG"]  # Name of the primary workflow
     types:
       - completed  # Trigger only when the primary workflow is completed
+    branches: [main] 
   push:
     paths:
       - 'sort/sort.py'
