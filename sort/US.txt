@@ -1,3 +1,7 @@
-vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?mode=stream-one&path=/&security=none&encryption=none&type=xhttp#🇺🇸US_38_@Surfboardv2ray
-vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?mode=stream-one&path=/&security=none&encryption=none&type=xhttp#🇺🇸US_39_@Surfboardv2ray
-vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?type=xhttp&path=/&host=&mode=stream-one&security=none#🇺🇸US_40_@Surfboardv2ray
+vless://b9e5c4b7-1e9b-4ca5-82dc-43f3a440484c@45.15.125.8:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=YF_Vfx9VdDFXKM4bL1RZx6vsUqlSMtT56wPt987Aul8&security=reality&sid=db49831a996244d8&sni=max.ru&type=tcp#🇺🇸US_26_@Surfboardv2ray
+vless://c1a5ecfa-8a01-4070-91e0-0328b82388ad@192.200.160.20:443?allowInsecure=1&alpn=http/1.1&encryption=none&host=639073677243396643.camry-perma.info&path=/phnkfhws&security=tls&sni=639073677243396643.camry-perma.info&type=ws#🇺🇸US_27_@Surfboardv2ray
+vless://cee53ba2-31d6-4821-8bef-d55f2f05f120@162.159.38.121:443?allowInsecure=1&alpn=h3,h2,http/1.1&encryption=none&host=xiao.xiao0772.ccwu.cc&path=/&security=tls&sni=xiao.xiao0772.ccwu.cc&type=ws#🇺🇸US_29_@Surfboardv2ray
+vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?mode=stream-one&path=/&security=none&encryption=none&type=xhttp#🇺🇸US_33_@Surfboardv2ray
+vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?mode=stream-one&path=/&security=none&encryption=none&type=xhttp#🇺🇸US_34_@Surfboardv2ray
+vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?type=xhttp&mode=stream-one&path=/&security=none#🇺🇸US_35_@Surfboardv2ray
+vless://fae38aae-0342-4752-834d-3f7d2ec58ea8@172.237.128.199:443?type=xhttp&path=/&host=&mode=stream-one&security=none#🇺🇸US_36_@Surfboardv2ray
