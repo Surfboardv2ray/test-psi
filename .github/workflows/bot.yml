@@ -2,7 +2,7 @@ name: Send to Bot
 
 on:
   workflow_run:
-    workflows: ["CR2 - RangeMaker"]  # Name of the primary workflow
+    workflows: ["Extract IPS and RangeMaker"]  # Name of the primary workflow
     types:
       - completed  # Trigger only when the primary workflow is completed
     branches: [main] 
