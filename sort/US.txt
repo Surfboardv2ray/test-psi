@@ -1,2 +1,1 @@
-ss://Y2hhY2hhMjAtcG9seTEzMDU6Q3lqREJOMzBzNW45aTQxTGI3SW9xY0s1@199.195.254.136:22914#🇺🇸US_31_@Surfboardv2ray
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.167:443#🇺🇸US_36_@Surfboardv2ray
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.72.18:443?allowInsecure=1&encryption=none&host=sni.111000.dynv6.net&path=/?Telegram🇨🇳@WangCai2=&security=tls&sni=sni.111000.dynv6.net&type=ws#🇺🇸US_55_@Surfboardv2ray
