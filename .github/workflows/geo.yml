@@ -58,7 +58,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add geo/ex.txt geo/exrange.txt
+          git add geo/iplist.txt geo/config.txt geo/ex.txt geo/exrange.txt
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅ List updated ${timestamp}"
           git push
