@@ -1,8 +1,0 @@
-vless://08238f73-88ae-49e0-81ad-aa0cf0e901d9@185.143.233.235:443?path=/&security=tls&encryption=none&insecure=0&host=endpoint.parhamm2.ir&fp=chrome&type=ws&allowInsecure=0&sni=endpoint.parhamm2.ir#🇮🇷IR_44_@Surfboardv2ray
-vless://12652aba-cb8a-4b26-9bb7-748605b3ee57@shop.webchipro2.ir:7777?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR_47_@Surfboardv2ray
-vless://134237f2-3c21-428b-a443-5c211d86b9e1@farzandeiran.iransalar.top:21531?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR_49_@Surfboardv2ray
-vless://19666df6-009d-4426-8f05-7e19b7dc9da9@snapp.ir:443?path=/&security=tls&encryption=none&host=my.simin123.shop&fp=chrome&type=ws&sni=my.simin123.shop#🇮🇷IR_51_@Surfboardv2ray
-vless://247a9b59-fb3e-4abf-bc81-143b5a0c14a7@farzandeiran.iransalar.top:44559?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷IR_55_@Surfboardv2ray
-vless://26a8a48e-262c-4e9a-8717-f8976f7cfea2@snapp.ir:80?path=/DL?ed=2053&security=none&encryption=none&host=m4.articler.ir&type=ws#🇮🇷IR_58_@Surfboardv2ray
-vless://a1d9eaf5-9e03-4c67-af0b-e238b865b373@185.143.234.122:80?encryption=none&security=none&type=ws=-@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann&host=amm4.avenflow.ir&path=/#🇮🇷IR_59_@Surfboardv2ray
-vless://d29cf368-c2d3-4d72-bbc0-cb4588039226@185.143.234.122:80?path=/&security=none&encryption=none&host=dl.koremusic.ir&type=ws#🇮🇷IR_61_@Surfboardv2ray
