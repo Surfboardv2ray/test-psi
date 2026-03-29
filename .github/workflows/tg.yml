@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'tg/ch.json'
+      - 'tg/channels.json'
       - '.github/workflows/tg.yml'
 
   workflow_dispatch:
