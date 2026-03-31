@@ -2,13 +2,12 @@ name: TG
 on:
   push:
     paths:
-      - 'tg/ch.json'
       - 'tg/channels.json'
       - '.github/workflows/tg.yml'
 
   workflow_dispatch:
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "*/30 * * * *"
 jobs:
   run_python_and_push:
 
