@@ -1,4 +1,4 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@156.225.72.238:2096?allowInsecure=1&encryption=none&host=sni.jpmj.dev&path=/&security=tls&sni=sni.jpmj.dev&type=ws#🇺🇸US_74_@Surfboardv2ray
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.200.160.238:2096?allowInsecure=1&encryption=none&host=sni.jpmj.dev&path=/&security=tls&sni=sni.jpmj.dev&type=ws#🇺🇸US_88_@Surfboardv2ray
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@23.106.155.178:802?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=sni.111000.indevs.in&path=/&security=tls&sni=sni.111000.indevs.in&type=ws#🇺🇸US_94_@Surfboardv2ray
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@141.193.213.10:80?path=/telegram-MTMVPN&security=none&encryption=none&host=us.laoyoutiao.link&type=ws#🇺🇸US_139_@Surfboardv2ray
+vless://17f100d3-4b31-47f9-b8df-94d1a723d43e@140.248.155.104:443?path=/&security=tls&encryption=none&insecure=0&host=efixshop.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=default.ssl.fastly.net#🇺🇸US_100_@Surfboardv2ray
+vless://6d0e9ded-d23d-4ffb-b165-7bc757be84d3@us2.404-it.ru:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=iJQK0wDw5QuWz00zl6H1j_10x7Y2RVcBntvF7KL3l1g&security=reality&sid=6308ee39a9dd2b3b&sni=google.com&type=tcp#🇺🇸US_154_@Surfboardv2ray
+vless://6d0e9ded-d23d-4ffb-b165-7bc757be84d3@us2.404-it.ru:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=iJQK0wDw5QuWz00zl6H1j_10x7Y2RVcBntvF7KL3l1g&security=reality&sid=6308ee39a9dd2b3b&sni=google.com&type=tcp#🇺🇸US_155_@Surfboardv2ray
+vless://ca05976a-2dea-11f1-9ec5-baabcd4be2cd@45.39.255.21:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc&security=reality&sid=a1b2c3d4e5f6&sni=www.apple.com&type=tcp#🇺🇸US_198_@Surfboardv2ray
