@@ -1,4 +1,4 @@
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.169:443#🇺🇸US_42_@Surfboardv2ray
 ss://YWVzLTI1Ni1nY206NW1DSDQ2MjRRZmxPMWNGUg@185.111.156.33:80#🇺🇸US_45_@Surfboardv2ray
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.40.144.238:2096?allowInsecure=1&encryption=none&host=sni.jpmj.dev&security=tls&sni=sni.jpmj.dev&type=ws#🇺🇸US_58_@Surfboardv2ray
-vless://ee6817f6-50fe-4114-b7ff-ce853b144282@45.136.129.109:59999?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=x0t1otRGBv62aJKGNbsQRJGtwh-sp6CEScFS6S8y3EM&security=reality&sid=7c8d9e0f&sni=yastatic.net&type=tcp#🇺🇸US_153_@Surfboardv2ray
+vless://40b65495-b0af-4e15-9d46-6d6d4c6ba90c@92.118.230.92:1443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=kianJdV3a2pQ4jj9jTdH--MXQza6wiRv77tADsyc7Q8&security=reality&sid=2e6a8f1c3d9b7045&sni=google.com&type=tcp#🇺🇸US_72_@Surfboardv2ray
+vless://ee6817f6-50fe-4114-b7ff-ce853b144282@45.136.129.109:59999?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=x0t1otRGBv62aJKGNbsQRJGtwh-sp6CEScFS6S8y3EM&security=reality&sid=7c8d9e0f&sni=yastatic.net&type=tcp#🇺🇸US_208_@Surfboardv2ray
