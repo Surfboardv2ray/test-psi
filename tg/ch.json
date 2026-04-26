@@ -56,7 +56,6 @@
     "configfree",
     "configir98",
     "configraygan",
-    "configshub",
     "configshub2",
     "configx2ray",
     "configx2ray0",
@@ -75,6 +74,7 @@
     "efixvpn",
     "ehsawn8",
     "electvpn0",
+    "electvpn11",
     "en_vpn",
     "escapnet",
     "estunnel",
@@ -212,7 +212,6 @@
     "russiaproxyy",
     "safewebs",
     "saministamm",
-    "segvpn",
     "sexyboyvpn",
     "shadowproxy66",
     "shahram_vpn",
@@ -318,6 +317,5 @@
     "zed_netmeli",
     "zel2ovpn",
     "zeos_vpn",
-    "zhw_x_club",
     "zxrvpn"
 ]
